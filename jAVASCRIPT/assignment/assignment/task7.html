@@ -16,33 +16,31 @@
             var total_marks = parseInt(prompt("enter  total marks"));
           var obtained_marks= a+b+c+d+e;
           var res = parseInt((obtained_marks *100)/total_marks);
+          alert(`your res is ${res}`);
 
 
           
           switch(res){
-            case 100:
+            case 90  :
                   alert('A+');
                   break;
-              case 90:
-                  alert('A+');
-                  break;
-                  case 80:
+                  case  80 :
                   alert('A');
                   break;
-                  case 70:
+                  case  70 :
                   alert('B+');
                   break;
-                  case 60:
+                  case  60 :
                   alert('B');
                   break;
-                  case 50:
+                  case 50 :
                   alert('C+');
                   break;
-                  case 40:
+                  case 40 :
                   alert('c');
                   break;
                   default:
-                      alert("error");
+                      alert("error in marks");
           }
 
 
